@@ -6,7 +6,7 @@ body {
   text-align: center;
 }
 .main-header {
-  padding-bottom: 15%;
+  height: 300px;
   width: 100%;
   background-size: cover;
   background-image: url("../images/header.jpg");
@@ -66,17 +66,49 @@ header li:after {
   display: table-cell;
 }
 
-.about {
-/* About Achieve部分の実装 */
+.about h1{ /* About Achieve部分の実装 */
+font-size: 1.5rem;
+}
+.abouut p{
+  font-size: 0.8rem;
 }
 /* ここから */
 .function {
+  background-color: #D3D3D3;
 }
 .function-images {
+  padding: 3% 20%;
+  /*margin: 0;*/
+  display: flex;
+  justify-content: space-around;
+}
+.function h1{
+  padding-top: 3%;
 }
 .function-image {
 }
 /* ここまでがfunction部分の実装 */
 footer {
-/* footer部分の実装 */
+  width: 100%;
+  height: 70px;
+  background-color: #283A4B;
+  /*position: absolute;*/
+  /*display: table;
+  /*display: block;*/
+}
+footer p{
+  /*position: absolute;*/
+  margin: auto;
+  color: #fff;
+  font-size: 0.8rem;
+  /*display: table-cell;
+  /*vertical-align: middle;*/
+}
+/*.footer-1{
+  display: table-cell;
+  vertical-align: middle;
+}
+.footer-2{
+  display: table-cell;
+  vertical-align: middle;
 }
