@@ -93,7 +93,7 @@ footer {
   height: 70px;
   background-color: #283A4B;
   /*position: absolute;*/
-  /*display: table;
+  display: table;
   /*display: block;*/
 }
 footer p{
@@ -104,11 +104,7 @@ footer p{
   /*display: table-cell;
   /*vertical-align: middle;*/
 }
-/*.footer-1{
-  display: table-cell;
-  vertical-align: middle;
-}
-.footer-2{
+.wrapper{
   display: table-cell;
   vertical-align: middle;
 }
